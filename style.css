@@ -78,3 +78,57 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
 }
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    width: 450px;
+    height: auto;
+}
+.abouttext{
+    width: 550px;
+}
+.main{
+    width: 80%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abouttext h2{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.abouttext h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.abouttext p{
+    color: #83a19a;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: #59CE8F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #59CE8F;
+    cursor: pointer;
+}
